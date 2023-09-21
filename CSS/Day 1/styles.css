@@ -1,0 +1,78 @@
+/*Emement selector selects every single element stated*
+h1 {
+    color: blueviolet;
+}
+
+p {
+    color: deeppink;
+}
+
+#selector takes precident over element and class selectors
+
+.paragraphs {
+    background-color: crimson;
+    color: white;
+}
+
+
+p {
+    background-color: chartreuse;
+    color: darkolivegreen;
+}*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+header {
+    background-color: #43aa8b;
+    padding: 20px;
+    margin: 40px;
+    border: 5px solid orange;
+}
+
+#main {
+    background-color: #f9c74f;
+    border: 5px solid#719d4f;
+    padding: 40px;
+    margin: 40px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    background-color: #719d4f;
+    color: white;
+
+    padding: 40px;
+    margin: 40px;
+}
+
+
+.img {
+    width: 640px;
+    height: 400px;
+    padding-bottom: 20px;
+
+}
+
+iframe {
+    margin: auto;
+    padding: auto;
+    border: auto;
+}
+
+.footer {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f3722c;
+    margin: 40px;
+    padding: 10px 40px 30px 40px;
+    border: 5px solid#719d4f;
+}

@@ -1,0 +1,92 @@
+<!-- Task:
+Put together a basic HTML webpage structure with an appropriate use of Semantic HTML, alongside correct use of both the Class and ID attributes.
+Your webpage must include an embedded YouTube video and an embedded Google Map.
+Research "Favicons" and see if you are able to change the Favicon of your website.
+Finally, utilise HTML validation to ensure that your HTML is error free. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        .map {
+            width: 420px;
+            height: 350px;
+        }
+    </style>
+
+    <title>Semantic HTML Project</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="menu" style="background-color: #FEBBCC;">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#main">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" style="background-color:white;">
+        <h1>My Cinema Space</h1>
+        <img src="https://media2.giphy.com/media/6pJNYBYSMFod2/giphy.gif" alt="Let's go to the movies!">
+        <p>Did you know that Michael Jackson was the inventor of eating popcorn in the cinema? </p>
+
+        <article style="background-color:  #D8D9DA ;">
+            <h2>Eating in the cinema?</h2>
+            <p>For years, smuggling food and drink into cinemas has felt like a crime, but no more. Our wildest dreams
+                have come true, and it has finally been confirmed that, yes, you can officially bring your own snacks to
+                watch films in public places.
+            </p>
+        </article>
+
+        <article style="background-color:#D8D9DA;">
+            <h2>What you can and can't eat in the cinema</h2>
+            <p>However, don’t think you can bring along any food you like. Unless you’re at one of those fancy cinemas
+                that serve meals in your seat, hot food is absolutely out of the question. Hot food can transmit smells
+                much more effectively than, say, a grab bag of Cadbury Twirl Bites. Tuck into a burger or a curry in the
+                middle of The Batman and you run the risk of offending the rest of the audience.
+            </p>
+            <p>As an aside, cold food can also smell. South Korean cinemas often have signs banning people from eating
+                dried squid during film viewings. So don’t do that either.</p>
+        </article>
+        <article style="background-color:#D8D9DA;">
+            <h2>I love cinema ❤️ </h2>
+            <h3>This trailer is hilarious!</h3>
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+
+            <p>The Muppets' Musical Gang is back at it with their rendition of Queen’s Bohemian Rhapsody! Seat and relax
+                and eat as much as you want. Remember: we're now allowed 🥳!
+            </p>
+
+        </article>
+
+    </main>
+
+</body>
+
+
+<footer id="footer" style="background-color: #FDE5EC;">
+
+    <h2>We're here!</h2>
+    <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.4544076783795!2d-0.1162120878926964!3d51.50487887169516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b77b9ef99b%3A0x6879c6c12e1b4b33!2sBFI%20IMAX!5e0!3m2!1sen!2suk!4v1695212963498!5m2!1sen!2suk">
+    </iframe>
+
+    </article>
+    <h3>Contact us:</h3>
+    <h3>0208938736</h3>
+
+    <a href="#">BACK TO TOP</a>
+    <br>
+</footer>
+</body>
+
+</html>
