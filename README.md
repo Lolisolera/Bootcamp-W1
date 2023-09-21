@@ -1,3 +1,3 @@
-# Projects
+# Bootcamp
 
-Source code for my course.
+Source code for my Software Development course.
