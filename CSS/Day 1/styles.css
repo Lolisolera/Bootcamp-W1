@@ -64,6 +64,8 @@ h1 {
 }
 
 iframe {
+    width: 640px;
+    height: 450px;
     margin: auto;
     padding: auto;
     border: auto;
